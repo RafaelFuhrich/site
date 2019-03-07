@@ -8,10 +8,21 @@
 <body>
  
       <div ng-app="">
-      <label>Parabéns para </label>
-      <input type="text" ng-model="titulo" placeholder="Alguém">
+      <label>Insira os trechos nas lacunas</label><br>
+      <input type="text" ng-model="primeiro" placeholder="complete"><br>
+      <input type="text" ng-model="segundo" placeholder="complete"><br>
+	  <input type="text" ng-model="terceiro" placeholder="complete"><br>
+	  <input type="text" ng-model="quarto" placeholder="complete"><br>
+	  <input type="text" ng-model="quinto" placeholder="complete">
 
-      <h1>{{titulo}}, parabéns!</h1>
+	  <h1>Orfanato - Zimbra</h1>
+
+      <h3>{{primeiro}}, olhei por baixo do lençol</h3>
+      <h3>E percebi que onde eu tava {{segundo}}</h3>
+      <h3>Então {{terceiro}}</h3>
+      <h3>{{quarto}}, eu não gostava do clarão do dia</h3>
+      <h3> Honestamente eu preferia o que a {{quinto}} trazia</h3>
+
   </div>
     
 </body>
